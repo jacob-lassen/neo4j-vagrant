@@ -8,4 +8,5 @@ Vagrant.configure("2") do |config|
     v.cpus = 2
   end
   config.vm.provision :shell, :path => "setup.sh"
+  config.vm.provision :shell, :path => "boot.sh", :run => "always"
 end

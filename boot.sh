@@ -1,0 +1,1 @@
+sudo docker run --detach --rm -e NEO4J_AUTH=none -p 7474:7474 -p 7373:7373 -p 7687:7687 neo4j:3.4
